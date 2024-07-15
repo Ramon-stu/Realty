@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Martinez Realty</title>
+    <link rel="stylesheet" href="css/videos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body class="shared-background">
+    <div class="header">
+        <div class="title-container">
+            <div class="title" style="text-align: left; font-style: italic;">
+                Eddie O.Martinez 
+                 .C-22712
+            </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown"><a href="#">Videos</a>
+                <ul class="dropdown-content">
+                    <li><a href="#" onclick="changeVideo('pic/video1.mp4')">Video 1</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video2.mp4')">Video 2</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video3.mp4')">Video 3</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video4.mp4')">Video 4</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video5.mp4')">Video 5</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video6.mp4')">Video 6</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video7.mp4')">Video 7</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video8.mp4')">Video 8</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video9.mp4')">Video 9</a></li>
+                    <li><a href="#" onclick="changeVideo('pic/video10.mp4')">Video 10</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="video-section">
+        <div id="video-container">
+            <video id="selected-video" controls autoplay>
+                <source src="pic/video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
+
+    <script src="video.js"></script>
+</body>
+</html>
